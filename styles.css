@@ -4,10 +4,35 @@
     box-sizing: border-box;
 }
 
+p{
+    font-size: 15px;
+    font-family: "Sen", sans-serif;
+}
+
+.sen-f{
+    font-family: "Sen", sans-serif;
+}
+
 .bg-main{
     background-color: #3869E2;
 }
 
 .hover-btn{
     background-color: #325FCB;
+}
+
+.bg-b{
+    background-color: #060606;
+}
+
+.playful{
+    font-family: "Playfair Display", system-ui;
+}
+
+.first-l::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% darker */
+    z-index: 1;
 }

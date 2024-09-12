@@ -25,8 +25,20 @@ p{
     background-color: #060606;
 }
 
+.bg-bl{
+    background-color: #202020;
+}
+
+.bg-br{
+    background-color: #AE441D;
+}
+
 .playful{
     font-family: "Playfair Display", system-ui;
+}
+
+.pop{
+    font-family: "Poppins", sans-serif;
 }
 
 .first-l::before {
